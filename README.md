@@ -22,7 +22,7 @@ Our results show that light to moderate pruning improves saliency map focus and 
     - plots: This folder consists of roadplots and other comparision plots for the models.
     - calculate_road.ipynb: Code to measure ROAD metrics for the models.
     - calculate_sparsity.ipynb: Code to measure sparsity of models.
-    - generate_plots.ipynb:Code to geenrate various plots shown in the paper.
+    - generate_plots.ipynb:Code to generate various plots shown in the paper.
     - lottery_ticket.ipynb: This file consists of code to train normal and pruned networks using lottery hypothesis method.
     - metrics.ipynb: Implementation of helper functions related to explanation metrics.
     - resnet_18.py: Implementation of ResNet 18 model.
