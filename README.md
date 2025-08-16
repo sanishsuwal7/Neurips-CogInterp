@@ -17,13 +17,13 @@ Our results show that light to moderate pruning improves saliency map focus and 
 ## File Structure
     - craft: This folder contains the craft.ipynb file to measure concept importance for the models. 
              There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively.
-    - explanations: This folder consists of all the quanlitative explanations produced by the RESNET models.
+    - explanations: This folder consists of all the qualitative explanations produced by the ReNet models.
     - models: This folder contains the trained normal and pruned models.
-    - plots: This folder consists of roadplots and other comparision plots for the models.
+    - plots: This folder consists of roadplots and other comparison plots for the models.
     - calculate_road.ipynb: Code to measure ROAD metrics for the models.
     - calculate_sparsity.ipynb: Code to measure sparsity of models.
     - generate_plots.ipynb:Code to generate various plots shown in the paper.
-    - lottery_ticket.ipynb: This file consists of code to train normal and pruned networks using lottery hypothesis method.
+    - lottery_ticket.ipynb: This file consists of code to train normal and pruned networks using lottery ticket hypothesis method.
     - metrics.ipynb: Implementation of helper functions related to explanation metrics.
     - resnet_18.py: Implementation of ResNet 18 model.
     - saliency_maps.ipynb : Code to generate saliency maps for models using various explanation methods.
