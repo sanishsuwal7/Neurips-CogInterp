@@ -16,7 +16,8 @@ Our results show that light to moderate pruning improves saliency map focus and 
 
 ## File Structure
     - craft: This folder contains the craft.ipynb file to measure concept importance for the models. 
-             There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively.                 The code has been derived from this github link: https://github.com/deel-ai/Craft
+             There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively.
+             The code has been derived from this github link: https://github.com/deel-ai/Craft
     - explanations: This folder consists of all the quanlitative explanations produced by the RESNET models.
     - models: This folder contains the trained normal and pruned models.
     - plots: This folder consists of roadplots and other comparision plots for the models.
