@@ -24,6 +24,7 @@ Our results show that light to moderate pruning improves saliency map focus and 
     - explanations: This folder consists of all the qualitative explanations produced by the ReNet models.
     - models: This folder contains the trained normal and pruned models.
     - plots: This folder consists of roadplots and other comparison plots for the models.
+    - resnet: This folder consist of the resnet model file.
     - calculate_road.ipynb: Code to measure ROAD metrics for the models.
     - calculate_sparsity.ipynb: Code to measure sparsity of models.
     - generate_plots.ipynb:Code to generate various plots shown in the paper.
