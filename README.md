@@ -2,7 +2,9 @@
 
 Submitted to **CogInterp: Interpreting Cognition in Deep Learning Models, NeurIPS Workshop 2025**.
 
-This paper provides our implementation of building efficient and interpretable models using various deep learning model Pruning strategies.
+Prior works have shown that neural networks can be heavily pruned while preserving performance, but the impact of pruning on interpretability remains unclear. In this work, we investigate how magnitude-based pruning followed by fine-tuning affects both low-level saliency maps and high-level concept representations. Using a ResNet-18 trained on ImageNette, we compare post-hoc explanations from Vanilla Gradients (VG) and Integrated Gradients (IG) across pruning levels, evaluating sparsity and faithfulness. We further apply CRAFT-based concept extraction to track changes in semantic coherence of learned concepts.
+
+Our results show that light to moderate pruning improves saliency map focus and reliability while retaining distinct, semantically meaningful concepts. In contrast, aggressive pruning merges heterogeneous features, reducing concept purity despite maintaining accuracy. These findings suggest that judicious pruning can guide internal representations toward more human-aligned attention patterns, while excessive pruning undermines interpretability.
 
 ## Requirements
 - kornia (for applying filters to feature-maps)
