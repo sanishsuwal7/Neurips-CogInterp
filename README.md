@@ -16,7 +16,9 @@ Our results show that light to moderate pruning improves saliency map focus and 
 
 ## File Structure
     - craft: This folder contains the craft.ipynb file to measure concept importance for the models. 
-             There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively.
+             There are two more folders "collected_images" and "concept_visualization".
+    - collected_images: This folder consists of correctly predicted images in .nzp format which are used to measure the concept purity.
+    - concept_visualization: This folder consists of the outputs after testing concept purity.
     - explanations: This folder consists of all the qualitative explanations produced by the ReNet models.
     - models: This folder contains the trained normal and pruned models.
     - plots: This folder consists of roadplots and other comparison plots for the models.
