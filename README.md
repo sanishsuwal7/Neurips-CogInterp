@@ -4,7 +4,7 @@ Repository for the paper "Do Sparse Subnetworks Exhibit Cognitively Aligned Atte
 
 This paper provides our implementation of building efficient and interpretable models using various deep learning model Pruning strategies.
 
-## Requirement
+## Requirements
 - kornia (for applying filters to feature-maps)
 - captum (for saliency maps)
 - quantus (for computing several metrics for saliency maps)
@@ -13,7 +13,7 @@ This paper provides our implementation of building efficient and interpretable m
 
 
 ## Structure
-    - craft: This folder contains the craft.ipynb file to measure concept importance for the models. There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively.
+    - craft: This folder contains the craft.ipynb file to measure concept importance for the models. There are two more folders "collected_images" and "concept_visualization" which consists of images used to measure the importance and the outputs respectively. The code has been derived from this github link: https://github.com/deel-ai/Craft
     - explanations: This folder consists of all the quanlitative explanations produced by the RESNET models.
     - models: This folder contains the trained normal and pruned models.
     - plots: This folder consists of roadplots and other comparision plots for the models.
@@ -23,5 +23,5 @@ This paper provides our implementation of building efficient and interpretable m
     - lottery_ticket.ipynb: This file consists of code to train normal and pruned networks using lottery hypothesis method.
     - metrics.ipynb: Implementation of helper functions related to explanation metrics.
     - resnet_18.py: Implementation of ResNet 18 model.
-    - saliency_maps.ipynb : Code to genrate saliency maps for models using various explantion methods.
+    - saliency_maps.ipynb : Code to generate saliency maps for models using various explanation methods.
     - utils.ipynb: Helper functions.
