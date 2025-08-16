@@ -9,7 +9,7 @@ This paper provides our implementation of building efficient and interpretable m
 - captum (for saliency maps)
 - quantus (for computing several metrics for saliency maps)
 - Ranger Optimizer (for optimizing ResNet model during training)
-- craft-xai (for concept explaianbility)
+- craft-xai (for concept explainability)
 
 
 ## Structure
