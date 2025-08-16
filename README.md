@@ -11,8 +11,8 @@ Our results show that light to moderate pruning improves saliency map focus and 
 - captum (for saliency maps)
 - quantus (for computing several metrics for saliency maps)
 - Ranger Optimizer (for optimizing ResNet model during training)
-- craft-xai (for concept explainability)
-- download and place the "Imagenette" dataset inside a folder named "datasets" in the same level as the code folder
+- Craft-xai (for concept explainability)
+- Dataset: download and place the "Imagenette" dataset inside a folder named "datasets" in the same level as the code folder
 
 
 ## File Structure
