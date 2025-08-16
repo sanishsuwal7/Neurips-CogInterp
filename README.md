@@ -1,4 +1,4 @@
-# Do Sparse Subnetworks Exhibit Cognitively Aligned Attention? Effects of Pruning on Saliency Map Fidelity, Sparsity, and Concept Purity
+# Do Sparse Subnetworks Exhibit Cognitively Aligned Attention? Effects of Pruning on Saliency Map Fidelity, Sparsity, and Concept Coherence
 
 Submitted to **CogInterp: Interpreting Cognition in Deep Learning Models, NeurIPS Workshop 2025**.
 
