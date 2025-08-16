@@ -12,10 +12,11 @@ Our results show that light to moderate pruning improves saliency map focus and 
 - quantus (for computing several metrics for saliency maps)
 - Ranger Optimizer (for optimizing ResNet model during training)
 - craft-xai (for concept explainability)
-- download and place the imagenette dataset inside a folder named "dataset" in the same level as code folder
+- download and place the "Imagenette" dataset inside a folder named "datasets" in the same level as the code folder
 
 
 ## File Structure
+    - code: This folder consists of all the codes and their outputs.
     - craft: This folder contains the craft.ipynb file to measure concept importance for the models. 
              There are two more folders "collected_images" and "concept_visualization".
     - collected_images: This folder consists of correctly predicted images in .nzp format which are used to measure the concept purity.
